@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple product Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Products.</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="imgbx">
+            <img src="./assets/img1.jpg" alt="" class="active">
+            <img src="./assets/img2.jpg" alt="">
+            <img src="./assets/img3.jpg" alt="">
+            <img src="./assets/img4.jpg" alt="">
+        </div>
+
+        <div class="contentBx">
+            <div class="active">
+                <h2>Slide Text One</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, maxime.</p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati id vel tenetur dolore autem quaerat debitis fugiat iure! Commodi voluptates eligendi natus. Totam, iure consequatur quasi nostrum laborum quis a illum, ab, sit quas id dolore sequi odit accusamus? Magni, odit minima recusandae earum vitae sequi consectetur perferendis nesciunt.</p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Three</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati id vel tenetur dolore autem quaerat debitis fugiat iure! Commodi voluptates eligendi natus. Totam, iure consequatur quasi nostrum laborum quis a illum, ab, sit quas id dolore sequi odit accusamus? Magni, odit minima recusandae earum vitae sequi consectetur perferendis nesciunt.</p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text four</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde obcaecati id vel tenetur dolore autem quaerat debitis fugiat iure! Commodi voluptates eligendi natus. Totam, iure consequatur quasi nostrum laborum quis a illum, ab, sit quas id dolore sequi odit accusamus? Magni, odit minima recusandae earum vitae sequi consectetur perferendis nesciunt.</p>
+                <a href="#">Details</a>
+            </div>
+        </div>
+
+        <ul class="controls">
+            <li onclick="prevSlide();nextSlideText();"></li>
+            <li onclick="nextSlide();prevSlideText();"></li>
+        </ul>
+    </section>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
